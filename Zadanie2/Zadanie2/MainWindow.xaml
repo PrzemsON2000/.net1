@@ -1,0 +1,70 @@
+﻿<Window x:Class="Zadanie2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock x:Name="PreviousOperationLabel" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10" Grid.Row="0"/>
+
+        <TextBlock x:Name="ResultLabel" FontSize="32" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10" Grid.Row="1" />
+
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Content="7" Grid.Row="0" Grid.Column="0" Click="NumberButton_Click"/>
+            <Button Content="8" Grid.Row="0" Grid.Column="1" Click="NumberButton_Click"/>
+            <Button Content="9" Grid.Row="0" Grid.Column="2" Click="NumberButton_Click"/>
+            <Button Content="/" Grid.Row="0" Grid.Column="3" Click="OperationButton_Click"/>
+
+            <Button Content="4" Grid.Row="1" Grid.Column="0" Click="NumberButton_Click"/>
+            <Button Content="5" Grid.Row="1" Grid.Column="1" Click="NumberButton_Click"/>
+            <Button Content="6" Grid.Row="1" Grid.Column="2" Click="NumberButton_Click"/>
+            <Button Content="*" Grid.Row="1" Grid.Column="3" Click="OperationButton_Click"/>
+
+            <Button Content="1" Grid.Row="2" Grid.Column="0" Click="NumberButton_Click"/>
+            <Button Content="2" Grid.Row="2" Grid.Column="1" Click="NumberButton_Click"/>
+            <Button Content="3" Grid.Row="2" Grid.Column="2" Click="NumberButton_Click"/>
+            <Button Content="-" Grid.Row="2" Grid.Column="3" Click="OperationButton_Click"/>
+
+            <Button Content="0" Grid.Row="3" Grid.Column="0" Click="NumberButton_Click"/>
+            <Button Content="." Grid.Row="3" Grid.Column="1" Click="NumberButton_Click"/>
+            <Button Content="=" Grid.Row="3" Grid.Column="2" Click="EqualsButton_Click"/>
+            <Button Content="+" Grid.Row="3" Grid.Column="3" Click="OperationButton_Click"/>
+
+            <Button Content="√" Grid.Row="4" Grid.Column="0" Click="unaryOperationButton_Click"/>
+            <Button Content="1/x" Grid.Row="4" Grid.Column="1" Click="unaryOperationButton_Click"/>
+            <Button Content="n!" Grid.Row="4" Grid.Column="2" Click="unaryOperationButton_Click"/>
+            <Button Content="log" Grid.Row="4" Grid.Column="3" Click="unaryOperationButton_Click"/>
+
+            <Button Content="ln" Grid.Row="5" Grid.Column="0" Click="unaryOperationButton_Click"/>
+            <Button Content="log2" Grid.Row="5" Grid.Column="1" Click="unaryOperationButton_Click"/>
+            <Button Content="⌊x⌋" Grid.Row="5" Grid.Column="2" Click="unaryOperationButton_Click"/>
+            <Button Content="⌈x⌉" Grid.Row="5" Grid.Column="3" Click="unaryOperationButton_Click"/>
+        </Grid>
+
+    </Grid>
+</Window>

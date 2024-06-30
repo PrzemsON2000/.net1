@@ -1,0 +1,33 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanie1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <WrapPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
+        <Button Content="Button 1" Style="{StaticResource WrapPanelButtonStyle}"/>
+        <Button Content="Button 2" Style="{StaticResource WrapPanelButtonStyle}"/>
+        <Button Content="Button 3" Style="{StaticResource WrapPanelButtonStyle}"/>
+        </WrapPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
+        <Label Content="Group 1" Style="{StaticResource StandardLabelStyle}"/>
+        <Label Content="Group 2" Style="{StaticResource SpecialLabelStyle}"/>
+        </StackPanel>
+    
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="Main Content Area" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+    </Grid>
+</Window>

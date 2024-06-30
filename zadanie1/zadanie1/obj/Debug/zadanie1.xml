@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+zadanie1
+</name>
+</assembly>
+<members>
+<member name="T:zadanie1.My.MyWpfExtension">
+ <summary>
+ Moduł używany do definiowana właściwości, które są dostępne w Mojej przestrzeni nazw dla frameworka WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:zadanie1.My.MyWpfExtension.Application">
+ <summary>
+ Zwraca obiekt aplikacji dla działającej aplikacji
+ </summary>
+</member>
+<member name="P:zadanie1.My.MyWpfExtension.Computer">
+ <summary>
+ Zwraca informacje o komputerze hosta.
+ </summary>
+</member>
+<member name="P:zadanie1.My.MyWpfExtension.User">
+ <summary>
+ Zwraca informacje dla bieżącego użytkownika.  Jeśli chcesz uruchomić aplikację z bieżącymi 
+ poświadczeniami użytkownika systemu Windows, wywołaj metodę My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:zadanie1.My.MyWpfExtension.Log">
+ <summary>
+ Zwraca dziennik aplikacji. Odbiorniki aplikacji mogą być konfigurowane przez plik konfiguracyjny aplikacji.
+ </summary>
+</member>
+<member name="P:zadanie1.My.MyWpfExtension.Windows">
+ <summary>
+ Zwraca kolekcję okien zdefiniowanych w projekcie.
+ </summary>
+</member>
+<member name="T:zadanie1.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:zadanie1.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:zadanie1.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:zadanie1.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:zadanie1.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:zadanie1.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:zadanie1.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:zadanie1.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>
