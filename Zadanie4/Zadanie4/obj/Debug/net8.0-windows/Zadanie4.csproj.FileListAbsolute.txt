@@ -1,0 +1,10 @@
+C:\Users\przsz\source\repos\Zadanie4\Zadanie4\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\przsz\source\repos\Zadanie4\Zadanie4\obj\Debug\net8.0-windows\Views\CategoryWindow.baml
+C:\Users\przsz\source\repos\Zadanie4\Zadanie4\obj\Debug\net8.0-windows\Views\SubcategoryWindow.baml
+C:\Users\przsz\source\repos\Zadanie4\Zadanie4\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\przsz\source\repos\Zadanie4\Zadanie4\obj\Debug\net8.0-windows\Views\CategoryWindow.g.cs
+C:\Users\przsz\source\repos\Zadanie4\Zadanie4\obj\Debug\net8.0-windows\Views\SubcategoryWindow.g.cs
+C:\Users\przsz\source\repos\Zadanie4\Zadanie4\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\przsz\source\repos\Zadanie4\Zadanie4\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\przsz\source\repos\Zadanie4\Zadanie4\obj\Debug\net8.0-windows\Zadanie4_MarkupCompile.cache
+C:\Users\przsz\source\repos\Zadanie4\Zadanie4\obj\Debug\net8.0-windows\Zadanie4_MarkupCompile.lref

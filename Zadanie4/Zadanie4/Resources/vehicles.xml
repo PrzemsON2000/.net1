@@ -1,0 +1,22 @@
+﻿<Vehicles>
+    <Category>
+        <Name>Cars</Name>
+        <Description>Various types of cars.</Description>
+        <Subcategory>
+            <Name>BMW</Name>
+            <Description>BMW cars</Description>
+            <ParentCompany>Bayerische Motoren Werke AG</ParentCompany>
+            <FoundationDate>1916</FoundationDate>
+            <ProductionCountries>Germany</ProductionCountries>
+            <Model>
+                <Name>BMW X5</Name>
+                <Year>2021</Year>
+                <EngineCapacity>3.0L</EngineCapacity>
+                <DriveType>AWD</DriveType>
+            </Model>
+            <!-- More models... -->
+        </Subcategory>
+        <!-- More subcategories... -->
+    </Category>
+    <!-- More categories... -->
+</Vehicles>
